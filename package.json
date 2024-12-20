@@ -1,0 +1,57 @@
+{
+  "name": "react_charting_lib_node20",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.6",
+    "@mui/x-data-grid": "^7.23.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "docx": "^9.1.0",
+    "echarts": "^5.5.1",
+    "echarts-for-react": "^3.0.2",
+    "echarts-gl": "^2.0.9",
+    "echarts-stat": "^1.2.0",
+    "jspdf": "^2.5.2",
+    "papaparse": "^5.4.1",
+    "pptxgenjs": "^3.12.0",
+    "react": "^18.3.1",
+    "react_charting_lib_node20": "file:",
+    "react-dom": "^18.3.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start-max-memory": "react-scripts --max_old_space_size=32768 start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
